@@ -1,0 +1,127 @@
+.lassan {
+    display: flex;
+    align-items: flex-start;
+    padding: none;
+    margin: none;
+}
+
+.heading1 {
+    display: flex;
+    padding-left: 20px;
+}
+
+.container {
+    background-color: #d9afd9;
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    /* display: flex; */
+}
+
+img {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    padding: none;
+    margin: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #d9afd9;
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-area,
+.output-area,
+.button-area {
+    margin-bottom: 20px;
+    padding: 20px;
+    /* margin-right: none; */
+}
+
+.button-area {
+    display: flex;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#user-input {
+    width: 60vh;
+    height: 20px;
+    padding: 10px;
+    /* padding-right: none; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* border: 2px solid #ccc; */
+    /* border-radius: 4px; */
+    resize: vertical;
+    background: none;
+    border: none;
+}
+
+.button-area button {
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-right: 10px; */
+}
+
+.button-area button:hover {
+    /* background-color: #0056b3; */
+}
+
+.output-box {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+#generate-btn {
+    background-image: url("https://img.icons8.com/ios/50/circled-chevron-up.png");
+    width: 30px;
+    /* Adjust as needed */
+    height: 40px;
+    /* Adjust as needed */
+    border: none;
+    background-size: cover;
+}
+
+
+/* <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-up.png" alt="circled-chevron-up"/> */
+
+#clear-btn {
+    display: inline;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+}
